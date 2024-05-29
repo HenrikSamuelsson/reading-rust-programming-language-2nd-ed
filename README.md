@@ -1,2 +1,3 @@
-# reading-rust-programming-language-2nd-ed
+# The Rust Programming Language 2nd Edition
+
 Projects from when reading the book The Rust Programming Language, 2nd Edition.
