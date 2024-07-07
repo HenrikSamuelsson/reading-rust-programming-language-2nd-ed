@@ -3,4 +3,6 @@ fn main() {
 
     let first = a[0];
     let second = a[1];
+
+    println!("first: {first} second: {second}");
 }
