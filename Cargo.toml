@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    "projects/adder",
+    "projects/array",
+    "projects/guessing_game",
+    "projects/mini_grep",
+]
+
+resolver = "2"
