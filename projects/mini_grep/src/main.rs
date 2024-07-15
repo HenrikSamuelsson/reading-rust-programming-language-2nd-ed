@@ -10,11 +10,15 @@ fn main() {
         process::exit(1);
     });
 
-    println!("Searching for: {}", config.query);
-    println!("In file: {}", config.file_path);
+    println!("Searching for:\t {}", config.query);
+    println!("In the file:  \t {}", config.file_path);
 
+    run(config);
+}
+
+fn run(config: Config) {
     let contents = fs::read_to_string(config.file_path).expect("File read error.");
-    println!("With text:\n{contents}");
+    println!("\nFile content:\n\n{contents}");
 }
 
 struct Config {
